@@ -1,6 +1,7 @@
 name: CMake
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, asar_19, asar_2_beta ]
   pull_request:
